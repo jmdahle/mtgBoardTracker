@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    margin-left: .25rem;
+}
+
+img {
+    margin: 0.25rem
+}
+
+.flex {
+    display: flex;
+}

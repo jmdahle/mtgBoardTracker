@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS reset -->
+    <link rel='stylesheet' href='./reset.css' />
+    <!-- local style sheet -->
+    <link rel='stylesheet' href='./style.css' />
+    <title>MTG Board Tracker</title>
+</head>
+<body>
+    <!-- Card Search Form -->
+    <form>
+        <label for='cardNameSearchText'>Card Name:</label>
+        <input id='cardNameSearchText' type='text' />
+        <button id='searchBtn'>Search</button>
+    </form>
+    <div id='testArea'></div>
+    <!-- Card Search Return -->
+    <div id='cardSearchReturn'></div>
+    <div id='cardsOnBoard'></div>
+    
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- local js -->
+    <script src='./script.js'></script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 h2 {
@@ -7,13 +8,39 @@ h2 {
 }
 
 p {
-    margin-left: .25rem;
+    font-family: sans-serif
 }
 
 img {
-    margin: 0.25rem
+    border: 1px dashed grey;
 }
 
 .flex {
     display: flex;
 }
+
+#cardSearchReturn {
+    width: 50%;
+    border: 1px solid red;
+}
+
+#cardsOnBoard {
+    border: 1px solid green;
+    width: 50%;
+}
+
+.card-layout {
+    margin: 1px;
+    background-color: #dddddd;
+    border-radius: 0 3rem 3rem 0;
+    border-color: #333333;
+}
+
+.card-layout h2 {
+    color: orange;
+}
+
+.card-layout p {
+    color: #333333;
+}
+

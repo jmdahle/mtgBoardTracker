@@ -31,7 +31,7 @@ const searchCardsByName = (name) => {
           renderSearchList();
       })
       .catch((error) => {
-        console.error('Error:', error);
+        console.log('Error:', error);
       });
 }
 
@@ -91,6 +91,7 @@ const renderCard = (card) => {
     leftCard.append(cardImageElement);
     rightCard.append(cardNameElement);
     rightCard.append(cardTextElement);
+    rightCard.append(cardPowerToughness);
     cardContainer.append(leftCard);
     cardContainer.append(rightCard);
     return cardContainer;

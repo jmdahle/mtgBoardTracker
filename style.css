@@ -21,11 +21,9 @@ img {
 
 #cardSearchReturn {
     width: 50%;
-    border: 1px solid red;
 }
 
 #cardsOnBoard {
-    border: 1px solid green;
     width: 50%;
 }
 
@@ -34,6 +32,8 @@ img {
     background-color: #dddddd;
     border-radius: 0 3rem 3rem 0;
     border-color: #333333;
+    border: 2px;
+    padding-right: 3rem;
 }
 
 .card-layout h2 {
